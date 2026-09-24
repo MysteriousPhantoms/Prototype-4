@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     {
         HandleMovement();
 
-        // If night and player moved → restart
+        
         if (!GameManager.instance.isDay)
         {
             if (transform.position != lastPosition)
